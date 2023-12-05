@@ -1,7 +1,7 @@
 <form class="row g-3" novalidate>
   <div class="col-md-4">
     <label for="txtAuthor" class="form-label">Szerző</label>
-    <input type="text" class="form-control" id="txtAuthor">
+    <input type="text" class="form-control" id="txtAuthor" [(ngModel)]="searchModel.author">
   </div>
   <div class="col-md-4">
     <label for="txtTitle" class="form-label">Könyv címe</label>
