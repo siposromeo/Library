@@ -1,1 +1,1 @@
-https
+https://library.jedlik.cloud/docs
